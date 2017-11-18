@@ -1,1 +1,12 @@
-<h1>Coders Forum</h1>
+
+<% @messages.each do |joe| %>
+	<div class="col-md-10 col-md-offset-1">
+		<div class="message">
+			<h2 class="message-title"> <%= joe.title %> </h2>
+			<%= link_to "Join Convo", joe, class: "btn-custom" %>
+		</div>
+
+	</div>
+<% end %>
+
+<%= link_to "Post Message", new_message_path %>
