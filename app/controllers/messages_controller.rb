@@ -16,7 +16,7 @@ class MessagesController < ApplicationController
 		@message = Message.new(josembi)
 
 		if @message.save
-			flash[:success] = "Message saved Successfully"
+	#		flash[:success] = "Message saved Successfully"
 			redirect_to root_path
 		else
 			render 'new'
@@ -28,7 +28,7 @@ class MessagesController < ApplicationController
 
 	def update
 		if @message.update(josembi)
-			flash[:success] = "Message successfully updated!"
+	#		flash[:success] = "Message successfully updated!"
 			redirect_to message_path 
 		else
 			render 'edit'
@@ -37,7 +37,7 @@ class MessagesController < ApplicationController
 
 	def destroy
 		@message.destroy
-		flash[:danger] = "Message successfully destroyed"
+	#	flash[:danger] = "Message successfully destroyed"
 		redirect_to root_path
 	end
 
