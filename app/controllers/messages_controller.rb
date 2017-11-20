@@ -9,11 +9,11 @@ class MessagesController < ApplicationController
 	end
 
 	def new
-		@message = Message.new
+		@message = current_user.messages.build
 	end
 
 	def create
-		@message = Message.new(josembi)
+		@message = current_user.messages.build(josembi)
 
 		if @message.save
 	#		flash[:success] = "Message saved Successfully"
