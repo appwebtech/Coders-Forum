@@ -1,0 +1,5 @@
+
+<%= simple_form_for ([@message, @message.comments.build]) do |ukambani| %>
+  <%= ukambani.input :content, label: "Comments" %>
+  <%= ukambani.button :submit, class: 'btn-custom' %>
+<% end %>
