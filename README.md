@@ -1,6 +1,6 @@
 
 <div align="center">
-<h1>Coders Forum application</h1> 
+<h1><a href="https://appwebtech-coders-forum.herokuapp.com/">Coders Forum application</a></h1> 
 <h2>Software Development Documentation</h2>
   
 
@@ -20,7 +20,7 @@
 - [Technologies](#technologies)
   - [Devise](#devise)
   - [Bootstrap-sass](#bootstrap-sass)
-  - [Simple form](#simple form)
+  - [Simple form](#simple-form)
 - [Deployment](#deployment)
 - [Developer](#developer)
 - [Contacts](#contacts)
@@ -31,7 +31,7 @@
 
 In the last couple of months I decided to create short apps introducing briefly [Object Oriented Design (OOD)](https://en.wikipedia.org/wiki/Object-oriented_design) and the versatility of [RoR](https://en.wikipedia.org/wiki/Ruby_on_Rails) as a software design programming language and framework. I didn't use [TDD](https://en.wikipedia.org/wiki/Test-driven_development) or [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development), but there is an application that I used Unit tests (not Rspec) that I will push later after I finish working with the UI.  
 
-For those who are learning RoR and have been writing asking me to deploy and send links, I will deploy the apps but I don't know for how long they will stay online because I use Heroku's free dynos account when doing Mockups. When possible, I'll deploy images in AWS and have them served from there because Heroku deletes them one hour after deploying.
+For those who are learning RoR and have been writing asking me to deploy and send links, I will deploy the apps but I don't know for how long they will stay online because I use Heroku's free dynos account when doing Mockups which has limitations and is very slow. When possible, I'll deploy images in AWS and have them served from there because Heroku deletes them one hour after deploying.
 
 I've used ActiveRecord as the interface of the DB which has an awesome orm and is supplied with Rails 5. I used sqlite3 for development and postgres for production. I had an issue when deploying and had to do an asset precompile by running; 
 
