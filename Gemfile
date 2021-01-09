@@ -8,7 +8,7 @@ end
 
 gem 'rails', '~> 5.0.6'
 
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -18,8 +18,13 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass', '~> 3.4'
+# dependabot/bundler/simple_form-5.0.0
 gem 'simple_form', '~> 5.0'
 gem 'devise', '~> 4.3'
+=======
+gem 'simple_form', '~> 3.5'
+gem 'devise', '~> 4.7'
+ master
 
 
 
