@@ -18,8 +18,13 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass', '~> 3.4'
+# dependabot/bundler/simple_form-5.0.0
+gem 'simple_form', '~> 5.0'
+gem 'devise', '~> 4.3'
+=======
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.7'
+ master
 
 
 
